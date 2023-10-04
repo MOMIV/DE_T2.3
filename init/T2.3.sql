@@ -20,16 +20,16 @@ create table if not exists  OrderDetails(
 	FOREIGN KEY(Order_ID) REFERENCES Orders(Order_ID) ON DELETE CASCADE
 );
 COPY Customers(Customer_ID,FirstName,LastName, Email)
-FROM 'K:\DE_Projects\DE_T2.3\Customers.csv'
+FROM '/docker-entrypoint-initdb.d/data/customers.csv'
 DELIMITER ','
 CSV HEADER;
 
 COPY  Orders(Order_ID,Customer_ID,OrderDate, TotalAmount)
-FROM 'K:\DE_Projects\DE_T2.3\Orders.csv'
+FROM '/docker-entrypoint-initdb.d/data/orders.csv'
 DELIMITER ','
 CSV HEADER;
 
 COPY OrderDetails(OrderDetail_ID, Order_ID,Product_ID,Quantity, UnitPrice)
-FROM 'K:\DE_Projects\DE_T2.3\OrderDetails.csv'
+FROM '/docker-entrypoint-initdb.d/data/orderdetails.csv'
 DELIMITER ','
 CSV HEADER;
