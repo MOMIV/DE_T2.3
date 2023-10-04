@@ -56,8 +56,8 @@
 
 Результаты выполнения SQL-запросов:
 
-1 ![Image alt](https://github.com/MOMIV/DE_T2.3/raw/main/1.png)
+![Image alt](https://github.com/MOMIV/DE_T2.3/raw/main/1.png)
 
-2 ![Image alt](https://github.com/MOMIV/DE_T2.3/raw/main/2.png)
+![Image alt](https://github.com/MOMIV/DE_T2.3/raw/main/2.png)
 
-3 ![Image alt](https://github.com/MOMIV/DE_T2.3/raw/main/3.png)
+![Image alt](https://github.com/MOMIV/DE_T2.3/raw/main/3.png)
